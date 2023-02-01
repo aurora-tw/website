@@ -1,0 +1,82 @@
+body {
+    /*height: 100vh;*/
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    position: center;
+    /*height: 50vh;*/
+    padding-top: 50px;
+    /*margin: 20px;*/
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 12px;
+}
+
+
+#inputblock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+#enter {
+    max-width: 50px;
+}
+
+#userinput {
+    max-width: 100px;
+}
+
+.delete {
+    border: none;
+    background-color: transparent;
+}
+
+.delete:hover {
+    cursor: pointer;
+    color: #8c0202;
+}
+
+h1 {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    z-index: -1;
+}
+
+li.todoList {
+    padding: 0px;
+    margin: 0px;
+}
+
+.coolTitle {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 40px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: tomato;
+    text-shadow: -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+    text-decoration: line-through;
+}
