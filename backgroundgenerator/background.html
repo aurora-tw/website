@@ -2,14 +2,22 @@
 <html>
 <head>
     <title>Gradient Background</title>
-    <link rel="stylesheet" type="text/css" href="background.css">
+    <link href="background.css" rel="stylesheet" type="text/css">
+
+
 </head>
-<body id="gradient">
+<body>
+
+<div id="gradient">
 <h1>Background Generator</h1>
-<input class="color1" type="color" name="color1" value="#00ff00">
-<input class="color2" type="color" name="color2" value="#ff0000">
+<input class="color1" name="color1" type="color" value="#ff0000">
+<input class="color2" name="color2" type="color" value="#FFFF00">
 <h2>Current CSS Background</h2>
-<h3></h3>
-<script type="text/javascript" src="background.js"></script>
+<input disabled id="resultInput" type="text" value=" background: linear-gradient(to right, #00ff00, #ff0000); ">
+<button class="fa fa-copy" id="select"></button>
+<p hidden id="copySuccess">Copied to clipboard</p>
+</div>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/cf836e9663.js"></script>
+<script src="background.js" type="text/javascript"></script>
 </body>
 </html>
