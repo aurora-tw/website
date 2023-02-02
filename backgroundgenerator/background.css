@@ -1,10 +1,19 @@
 body {
-
-
     background: linear-gradient(to right, red, yellow); /* Standard syntax */
 }
 
+.generator-nav {
+    background: linear-gradient(to right, red, yellow); /* Standard syntax */
+    border: none;
+}
+
+.generator-nav a {
+    color: rgba(0, 0, 0, .5);
+    font: 400 1em 'Raleway', sans-serif;
+}
+
 .container {
+    margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
