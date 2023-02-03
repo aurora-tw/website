@@ -1,9 +1,8 @@
-body {
-    background: linear-gradient(to right, red, yellow); /* Standard syntax */
+body, .generator-nav {
+    background: linear-gradient(to right, rgb(195, 162, 162), rgb(194, 194, 61))
 }
 
 .generator-nav {
-    background: linear-gradient(to right, red, yellow); /* Standard syntax */
     border: none;
 }
 
@@ -69,5 +68,10 @@ h3 {
         font: 600 3em 'Raleway', sans-serif;
         letter-spacing: normal;
     }
+    .main-nav {
+        font-size: 0.7em;
+        padding: 0;
+    }
 
 }
+
